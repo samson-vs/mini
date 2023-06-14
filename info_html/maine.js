@@ -2,16 +2,22 @@
 const userId = new URL(location.href).searchParams.get('userId')
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`).then((res)=> res.json()).then((users)=>{
     const block = document.getElementsByClassName('user')[0];
+
+
+        const div_users = document.createElement('div');
+        div_users.innerText = `#${users.id}`;
+        block.appendChild(div_users)
+
     const ul = document.createElement('ul')
     rec(users, ul)
     block.appendChild(ul)
 
     const button = document.createElement("button");
     button.innerText = 'post-details'
-    block.appendChild(button);
+    div_users.appendChild(button);
 
     button.onclick = () => {
-        location.href = `../details_html/index.html`
+        location.href = `../details_html/index.html?userId=${users.id}`;
     }
 });
 
