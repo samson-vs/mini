@@ -2,11 +2,16 @@
 const userId = new URL(location.href).searchParams.get('userId')
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`).then((res)=> res.json()).then((users)=>{
     const block = document.getElementsByClassName('user')[0];
+    const butt = document.getElementsByClassName('button')[0];
+    const titleDiv = document.getElementsByClassName('titleDiv')[0];
 
-
+    const paragraphElement = document.createElement("p")
+    paragraphElement.classList.add('paragraph')
+    paragraphElement.innerText = "details for user"
+    titleDiv.appendChild(paragraphElement)
         const div_users = document.createElement('div');
-        div_users.innerText = `#${users.id}`;
-        block.appendChild(div_users)
+        // div_users.innerText = `${users.id}`;
+        // block.appendChild(div_users)
 
     const ul = document.createElement('ul')
     rec(users, ul)
@@ -16,9 +21,11 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`).then((res)=> res.j
     button.innerText = 'post-details'
     div_users.appendChild(button);
 
+    butt.appendChild(div_users)
     button.onclick = () => {
         location.href = `../details_html/index.html?userId=${users.id}`;
     }
+
 });
 
 function liBild(key ,value, parent) {

@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 100, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+.titleDiv{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightblue;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    }
+
+
+
+ul li {
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    width: 90%;
+    margin-left: 10vh;
+    margin-top: 15vh;
+    padding: 10px;
+}
