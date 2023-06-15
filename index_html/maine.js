@@ -1,4 +1,5 @@
-fetch('https://jsonplaceholder.typicode.com/users').then((res)=> res.json()).then((users)=>{
+fetch('https://jsonplaceholder.typicode.com/users').then((res)=> res.json()).then((users)=> {
+    console.log(users)
     const block = document.getElementsByClassName('user')[0];
     for (const user of users) {
         const div_users = document.createElement('div');

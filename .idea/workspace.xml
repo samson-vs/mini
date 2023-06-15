@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f31c34-42c4-4cd9-8903-ba7cd830a1ce" name="Changes" comment="">
+    <list default="true" id="16f31c34-42c4-4cd9-8903-ba7cd830a1ce" name="Changes" comment="dey2">
+      <change afterPath="$PROJECT_DIR$/post_details/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post_details/maine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/details_html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details_html/maine.js" beforeDir="false" afterPath="$PROJECT_DIR$/details_html/maine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info_html/maine.js" beforeDir="false" afterPath="$PROJECT_DIR$/info_html/maine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_html/maine.js" beforeDir="false" afterPath="$PROJECT_DIR$/index_html/maine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt/gg.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +60,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686668597724</updated>
-      <workItem from="1686668598705" duration="19915000" />
+      <workItem from="1686668598705" duration="35341000" />
     </task>
+    <task id="LOCAL-00001" summary="dey2">
+      <created>1686772863773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686772863773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dey2" />
+    <option name="LAST_COMMIT_MESSAGE" value="dey2" />
   </component>
 </project>
