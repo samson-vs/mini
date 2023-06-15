@@ -3,11 +3,12 @@ fetch('https://jsonplaceholder.typicode.com/users').then((res)=> res.json()).the
     const block = document.getElementsByClassName('user')[0];
     for (const user of users) {
         const div_users = document.createElement('div');
+        div_users.classList.add('divUser')
         div_users.innerText = `#${user.id} ${user.name} `;
         block.appendChild(div_users)
 
         const button = document.createElement("button")
-        button.innerText= 'info';
+        button.innerText= 'user-details';
         div_users.appendChild(button);
 
         button.onclick = () => {
