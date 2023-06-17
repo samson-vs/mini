@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 100, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+.user{
+    display: flex;
+    margin-left: 10vh;
+}
+
+ul li {
+    font-size: 20px;
+}
