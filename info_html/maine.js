@@ -10,8 +10,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`).then((res)=> res.j
     paragraphElement.innerText = "details for user"
     titleDiv.appendChild(paragraphElement)
         const div_users = document.createElement('div');
-        // div_users.innerText = `${users.id}`;
-        // block.appendChild(div_users)
+
 
     const ul = document.createElement('ul')
     rec(users, ul)
